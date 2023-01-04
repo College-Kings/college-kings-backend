@@ -1,0 +1,16 @@
+version: "3.9"
+
+networks:
+  localdev:
+    name: localdev
+    
+services:
+  main-api:
+    build: CollegeKingsWebServer/
+    restart: always
+    ports:
+      - "14694:80"
+    networks:
+      - localdev
+        
+        
