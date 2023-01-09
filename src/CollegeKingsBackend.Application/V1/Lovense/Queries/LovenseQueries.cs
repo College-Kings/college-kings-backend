@@ -61,7 +61,7 @@ public class LovenseQueries : ILovenseQueries
                 Nickname = toy.Nickname,
                 Name = toy.Name,
                 Status = toy.Status
-            })!;
+            });
         
         LovenseUserResponse response = new()
         {
