@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "CollegeKingsBackend": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7192;http://localhost:5165",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>aspnet-CollegeKingsWebServer-635666E5-4688-40D9-826A-39C04E3AE2A2</UserSecretsId>
         <LangVersion>latest</LangVersion>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>

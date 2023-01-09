@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Common" />
+      <Folder Include="TodoItems" />
+      <Folder Include="TodoLists" />
+      <Folder Include="WeatherForecasts" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CollegeKingsBackend.Infrastructure\CollegeKingsBackend.Infrastructure.csproj" />
+      <ProjectReference Include="..\CollegeKingsBackend.Domain\CollegeKingsBackend.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

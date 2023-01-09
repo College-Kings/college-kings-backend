@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Common" />
+      <Folder Include="Enums" />
+      <Folder Include="Events" />
+      <Folder Include="Exceptions" />
+      <Folder Include="ValueObjects" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CollegeKingsBackend.Infrastructure\CollegeKingsBackend.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
