@@ -79,7 +79,8 @@
 
     <ItemGroup>
       <Folder Include="Filters" />
-      <Folder Include="V1" />
+      <Folder Include="Services" />
+      <Folder Include="V1\Lovense" />
     </ItemGroup>
 
     <ItemGroup>

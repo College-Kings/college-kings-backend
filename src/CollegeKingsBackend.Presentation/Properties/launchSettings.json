@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "CollegeKingsBackend": {
+    "Development": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
@@ -8,6 +8,12 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    },
+    "Production": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://192.168.0.136:8443"
     }
   }
 }

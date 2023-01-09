@@ -1,8 +1,8 @@
-﻿using CollegeKings.Application.Posts;
-using CollegeKingsBackend.Presentation.V1.Contracts;
+﻿using CollegeKingsBackend.Application.V1.Posts;
+using CollegeKingsBackend.Presentation.V1.Lovense.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CollegeKingsBackend.Presentation.V1.Controllers;
+namespace CollegeKingsBackend.Presentation.V1.Posts;
 
 public class PostsController : Controller
 {

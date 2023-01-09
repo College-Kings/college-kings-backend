@@ -19,4 +19,8 @@
       <ProjectReference Include="..\CollegeKingsBackend.Infrastructure\CollegeKingsBackend.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.1" />
+    </ItemGroup>
+
 </Project>

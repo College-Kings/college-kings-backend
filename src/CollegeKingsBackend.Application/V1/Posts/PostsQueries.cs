@@ -1,6 +1,6 @@
 ﻿using CollegeKings.Domain.Entities;
 
-namespace CollegeKings.Application.Posts;
+namespace CollegeKingsBackend.Application.V1.Posts;
 
 public static class PostsQueries
 {

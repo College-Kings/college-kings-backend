@@ -6,6 +6,7 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddHttpClient();
             return services;
         }
     }
