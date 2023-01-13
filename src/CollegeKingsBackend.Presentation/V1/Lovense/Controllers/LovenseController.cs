@@ -1,11 +1,8 @@
-﻿using CollegeKingsBackend.Application.V1.Lovense;
-using CollegeKingsBackend.Application.V1.Lovense.Queries;
+﻿using CollegeKingsBackend.Application.V1.Lovense.Queries;
 using CollegeKingsBackend.Application.V1.Lovense.Requests;
 using CollegeKingsBackend.Application.V1.Lovense.Responses;
 using CollegeKingsBackend.Domain.Entities.Lovense;
-using CollegeKingsBackend.Presentation.V1.Lovense.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using LovenseQrCodeResponse = CollegeKingsBackend.Application.V1.Lovense.Responses.LovenseQrCodeResponse;
 
 namespace CollegeKingsBackend.Presentation.V1.Lovense.Controllers;
 
