@@ -1,5 +1,4 @@
 ﻿using CollegeKingsBackend.Application.V1.Posts;
-using CollegeKingsBackend.Presentation.V1.Lovense.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CollegeKingsBackend.Presentation.V1.Posts;
