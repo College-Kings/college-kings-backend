@@ -8,7 +8,7 @@ namespace CollegeKingsBackend.Application.V1.Lovense.Queries;
 public class LovenseQueries : ILovenseQueries
 {
     private readonly ILovenseService _lovenseService;
-    private HttpClient _httpClient;
+    private readonly HttpClient _httpClient;
 
     public LovenseQueries(HttpClient httpClient, ILovenseService lovenseService)
     {
