@@ -1,4 +1,4 @@
-﻿namespace CollegeKingsBackend.Presentation.V1.Lovense.Contracts;
+﻿namespace CollegeKingsBackend.Presentation.V1;
 
 public static class ApiRoutes
 {
@@ -24,6 +24,11 @@ public static class ApiRoutes
         public const string GetAll = $"{Base}/posts";
         public const string Create = $"{Base}/posts";
         public const string Get = $"{Base}posts/{{postId}}";
+    }
+
+    public static class Server
+    {
+        public const string GetStatus = $"{Base}/server/status";
     }
 
 }
