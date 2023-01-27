@@ -1,0 +1,45 @@
+﻿<Window x:Class="CollegeKings.Local.Uploader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CK Uploader" Height="600" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <ComboBox Grid.Row="0" Grid.Column="0" x:Name="ProjectSelector" Width="120" SelectionChanged="ProjectSelector_OnSelectionChanged" SelectedIndex="1">
+            <ComboBoxItem>College Kings 1</ComboBoxItem>
+            <ComboBoxItem>College Kings 2</ComboBoxItem>
+        </ComboBox>
+        
+        <TextBox Grid.Row="0" Grid.Column="1" Width="100" Text="v0.0.0" Name="DescriptionTextBox" TextChanged="DescriptionTextBox_OnTextChanged"/>
+        
+        <Separator Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+        
+        <TextBox Grid.Row="2" Grid.Column="0" Text="PC:" Name="PcFolderTextBox" IsReadOnly="True"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="Browse" Click="PcFolderButton_OnClick" Width="100"/>
+        
+        <TextBox Grid.Row="3" Grid.Column="0" Text="MAC:" Name="MacFolderTextBox" IsReadOnly="True"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="Browse" Click="MacFolderButton_OnClick" Width="100"/>
+        
+        <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="Upload" Click="UploadButton_OnClick"
+                Margin="20" IsEnabled="True" Name="UploadButton"/>
+        
+        <TextBox Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" IsReadOnly="True" VerticalAlignment="Stretch"
+                 Height="300" Margin="20" Name="LogTextBox">
+        </TextBox>
+    </Grid>
+</Window>
