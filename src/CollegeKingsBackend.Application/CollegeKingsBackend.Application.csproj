@@ -8,10 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Common" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\CollegeKingsBackend.Infrastructure\CollegeKingsBackend.Infrastructure.csproj" />
       <ProjectReference Include="..\CollegeKingsBackend.Domain\CollegeKingsBackend.Domain.csproj" />
     </ItemGroup>
