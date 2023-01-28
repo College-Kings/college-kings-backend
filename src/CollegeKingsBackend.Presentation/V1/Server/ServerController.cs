@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CollegeKingsBackend.Presentation.V1.Server.Controllers;
+namespace CollegeKingsBackend.Presentation.V1.Server;
 
 public class ServerController : Controller
 {

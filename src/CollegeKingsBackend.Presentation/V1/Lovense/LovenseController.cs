@@ -4,7 +4,7 @@ using CollegeKingsBackend.Application.V1.Lovense.Responses;
 using CollegeKingsBackend.Domain.Entities.Lovense;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CollegeKingsBackend.Presentation.V1.Lovense.Controllers;
+namespace CollegeKingsBackend.Presentation.V1.Lovense;
 
 public class LovenseController : Controller
 {
